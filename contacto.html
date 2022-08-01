@@ -72,20 +72,47 @@
 
 
     </section>
-<section class="contenedorForms">
-     <div class="mb-3 form ">
-        <label for="exampleFormControlInput1" class="form-label">Email </label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="email@ejemplo.com">
-    </div>
-    <div class="mb-3 form">
-        <label for="exampleFormControlTextarea1" class="form-label">consultas</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
-    <input class="btn btn-primary" type="submit" value="Enviar">
-    <input class="btn btn-primary" type="reset" value="Resetear">
+
+    <!-- formulario -->
+
+<section class="contenedorForm d-flex justify-content-center ">
+    <div class="row col-xxl-6 p-3">
+        <div>
+            <div>
+                <h2 class="text-center">Formulario</h2>
+            </div>
+        <form action="">
+            <div>
+                <label for="nombre">nombre</label>
+                <input type="text" class="form-control" name="nombre" id="nombre" placeholder="ej: Valentin">
+            </div>
+            <div>
+                <label for="apellido">apellido</label>
+                <input type="text" class="form-control" name="apellido" id="apellido" placeholder="ej: Cuenca">
+            </div>
+            <div>
+                <label for="correo">correo</label>
+                <input type="text" class="form-control" name="correo" id="correo" placeholder="ej: 1234@abcd.com">
+            </div>
+            <div class="mb-2">
+                <label for="sexo">sexo :</label>
+                <input type="radio" name="sexo" id="masuclino" value="masculino"> masculino
+                <input type="radio" name="sexo" id="femenino" value="femenino" > femenino
+            </div>
+            <div class="mb-2">
+                <label for="mensaje">mensaje</label>
+                <textarea name="mensaje" id="mensaje"  class="form-control" placeholder="ej:hola"></textarea>
+            </div>
+            <div>
+                <button class="btn btn-primary">Enviar</button>
+
+            </div>
+        </form>
+     </div>
     </div>
 </section>
-   
+
+
 
     <div class="container bg-dark mt-100">
         <footer class="py-3 my-4 ">
