@@ -1,0 +1,27 @@
+.logo {
+    width:120px ;
+}
+
+
+.slide {
+    width: 30%;
+    height: 30%;
+    margin: 0 auto;
+}
+.row {
+    justify-content: space-between;
+}
+
+.form {
+    width: 30%;
+    
+}
+.contenedorForms {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+
+
