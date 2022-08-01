@@ -2,12 +2,6 @@
     width:120px ;
 }
 
-
-.slide {
-    width: 30%;
-    height: 30%;
-    margin: 0 auto;
-}
 .row {
     justify-content: space-between;
 }
@@ -24,4 +18,9 @@
 }
 
 
-
+.slide img {
+    height: 65vh;
+}
+.contenedorSeg img{
+height: 40vh;
+}
